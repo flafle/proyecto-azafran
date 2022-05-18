@@ -1,0 +1,27 @@
+h3  {
+    font-size: 40px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    
+ 
+   
+}
+.principal {
+    text-align: center;
+    font-size: 20px;
+    
+    &__info  {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+  
+}
+
+
+.gallery3 {
+@extend .gallerytemplate;
+
+}

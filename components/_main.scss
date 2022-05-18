@@ -1,0 +1,36 @@
+.image {
+    &__logo {
+        border-radius: 100%;
+        width: 100px;
+        height: auto;
+    }
+}
+h3  {
+    font-size: 40px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+   
+}
+.principal {
+    @include index(center);
+   
+}
+.gallery1 {
+    @extend .gallerytemplate;
+
+
+    &__title {
+        font-style: oblique;
+        font-size: 40px;
+    }
+}
+.footer__logo {
+    border-radius: 100%;
+    width: 100px;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}

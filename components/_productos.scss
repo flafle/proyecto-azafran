@@ -1,0 +1,53 @@
+
+    .products {
+        font-size: 30px;
+        display: grid;
+        grid-template-columns: repeat(2);
+        gap: 50px;
+    
+        &__list {
+            font-style:oblique;
+            display: inline-block;
+           
+       
+       &__files {
+       display: flex;
+        align-items: center;
+       }
+    }
+
+}
+
+    
+ul {
+    
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left; 
+    margin-left: 20px;
+}
+p {
+    font-size: 50px;
+    
+
+}
+.section {
+    display:flex;
+    justify-content: center;
+}   
+.motion {
+    text-align: center;
+}
+    img {
+        width: 400px;
+        height: auto;
+        margin: 0 40px;
+        border-radius: 20px;
+        transition: 0.5s;
+        box-shadow:0 20px 40px rgba(0, 0, 0, 0.5); 
+
+    }
+
+
+
+

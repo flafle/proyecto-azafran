@@ -1,0 +1,48 @@
+footer {
+    position: relative;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color:$colorprimary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .rrss {
+        font-size: 20px;
+    }
+    .flor {
+        border-radius: 100%;
+        width: 400px; 
+    }
+    .nube, .instagram, .facebook {
+        font-size: 40px;
+        transition: 0.5s;
+        display:inline-block;
+    }
+    
+}
+.last {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+
+    .dr {
+        color: white;
+        font-size: 20px;
+    }
+    .final {
+        color: white;
+        text-align: center;
+        margin-top: 15px;
+        margin-bottom: 10px;
+       font-size: 25px;
+       
+    }
+    span .final {
+        font-size: 15px;
+        
+    }
+}
+a:hover {
+    transform: translateY(-10px);
+}
