@@ -93,3 +93,63 @@ body {
 
     }
 }
+@media (max-width: 1024px) {
+    h1 {
+        color:red;
+    }
+}
+
+
+@media (min-width:700px) and (max-width:1023px) {
+    h1 {
+        color:green;
+        text-align: center;
+    }
+    ul li a p {
+        display: inline-block;
+        text-align: center;
+    }
+    body{
+        display: inline-block;
+    }
+    footer {
+        width: 100%,
+        height auto;
+    }
+    .form {
+        flex-direction: column;
+    }
+}
+
+
+
+@media (min-width:400px) and (max-width:692px) {
+    h1 {
+        color:orange;
+        text-align: center;
+    }
+    body{
+        display: inline-block;
+    }
+    .header {
+        flex-wrap: row;
+    }
+  
+    .container, .products, .motion, .container2, .gallery2 {
+        
+       grid-template-columns: auto;
+    }
+
+   .principal__t, .pricipal__info {
+       width: 100%;
+   }
+   .form {
+    flex-direction: column;
+}
+.form__title {
+    text-transform: uppercase;
+}
+   .footer {
+       flex-direction: column;
+   }
+}

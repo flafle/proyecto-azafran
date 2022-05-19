@@ -5,30 +5,33 @@
     gap: 50px;
  }
  
- ul {
+ ul li {
     text-align: center;
     font-size: 30px;
         }
 
  .products__list {
-            font-size: 20px;
+          
             display: grid;
             grid-template-columns: repeat(2);
             gap: 50px;
         
             &__list {
                 font-style:oblique;
-                display: inline-block;
-               
-           
-           &__files {
-           display: flex;
-            align-items: center;
-           }
+                display: flex;
+                text-align: center;
+                               
+        
         }
+
+ h1  {
+    display: inline-block;
+    text-align: center;
+ }       
 .gallery2 {
    @extend .gallerytemplate;
-
-
+}
+.gallery4 {
+   @extend .gallerytemplate;
 }
 }
