@@ -2,17 +2,20 @@
     .products {
         font-size: 30px;
         display: grid;
-        grid-template-columns: repeat(2);
+        grid-template-columns: repeat(2fr);
         gap: 50px;
+        
     
         &__list {
             font-style:oblique;
-            display: inline-block;
+            display:flex;
+           
            
        
        &__files {
        display: flex;
         align-items: center;
+       
        }
     }
 
@@ -26,11 +29,17 @@ ul {
     text-align: left; 
     margin-left: 20px;
 }
+ul li {
+    display:flex;
+    text-align: center;
+    justify-content: space-around;
+}
 p {
     font-size: 50px;
-    
-
+    margin-bottom: 5rem;
 }
+
+
 .section {
     display:flex;
     justify-content: center;

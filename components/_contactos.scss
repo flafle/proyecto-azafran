@@ -8,6 +8,7 @@
     width: 50%;
     height: 500px;
     padding: 2rem 6rem;
+    
     align-items: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 }
@@ -39,7 +40,7 @@
     color: #7c6c77;
     font-size: 2rem;
     border: none;
-    padding: 1.5rem;
+    padding: 1rem;
     font-family: "pompiere";
 }
 .form__input:focus + .form__label, 
@@ -89,13 +90,15 @@
 }
    
 .contact__video {
-        width: 700px;
+        width: auto;
         margin-top: 20px;
+        margin-left: 40px;
         border-radius: 20px;
         background-color:#ffe787;
         box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
         margin-bottom: 20px;
-    }
+        
+        
    .contact__title {
         display: flex;
         justify-content: center;
@@ -103,3 +106,4 @@
     }
 
 
+}
